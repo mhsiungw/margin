@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.layout {
+    background-color: #f5f5dc;
+    height: 100vh;
+    width: 100vw;
+	/* 
+	NOTICE: 
+	加上這行後，layout 就不會跟著 container 的 margin，why?
+	*/
+	/* border: 1px solid red; */
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 200px;
+}
